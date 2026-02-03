@@ -1,0 +1,10 @@
+primeiros passos:
+    python3 -m venv .venv
+    source .venv/bin/activate
+    pip install playwright
+    playwright install
+
+
+
+pra saber qual melhor forma de pegar as infos de um site:
+    playwright codegen https://demoqa.com/browser-windows
