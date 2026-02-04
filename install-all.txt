@@ -15,5 +15,10 @@ pra saber qual melhor forma de pegar as infos de um site:
 
 
 p rodar os testes: npx playwright test
+
+execultar só 1 arquivo especifico
+    npx playwright test tests/meu-teste.spec.ts
+    npx playwright test tests/login.spec.ts --reporter=list
+
 rodar sem abrir relatorio: npx playwright test --reporter=list
 abrir relatorio: npx playwright show-report 
