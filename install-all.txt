@@ -1,10 +1,19 @@
 primeiros passos:
     python3 -m venv .venv
     source .venv/bin/activate
-    pip install playwright
-    playwright install
+    npm init playwright@latest --usando NODE
+    npm install -D @playwright/test --usando NODE
+
+    pip install playwright --usando PYTHON
+    playwright install --usando PYTHON
 
 
 
 pra saber qual melhor forma de pegar as infos de um site:
     playwright codegen https://demoqa.com/browser-windows
+
+
+
+p rodar os testes: npx playwright test
+rodar sem abrir relatorio: npx playwright test --reporter=list
+abrir relatorio: npx playwright show-report 
