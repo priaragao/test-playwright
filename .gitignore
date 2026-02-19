@@ -28,3 +28,7 @@ ai/models/*.onnx
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+
+#others
+install-all.txt

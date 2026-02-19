@@ -20,5 +20,7 @@ execultar só 1 arquivo especifico
     npx playwright test tests/meu-teste.spec.ts
     npx playwright test tests/login.spec.ts --reporter=list
 
+    npx playwright test tests/testDemoQa.spec.ts
+
 rodar sem abrir relatorio: npx playwright test --reporter=list
 abrir relatorio: npx playwright show-report 
