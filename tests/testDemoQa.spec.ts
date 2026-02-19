@@ -2,7 +2,8 @@ import { test, chromium } from "@playwright/test";
 
 test("abrir nova aba e preencher formulario", async () => {
   // abrir o navegador (mostrando a tela)
-  const navegador = await chromium.launch({ headless: false });
+  //   const navegador = await chromium.launch({ headless: false });
+  const navegador = await chromium.launch();
 
   // criar contexto (equivalente ao new_context do Python)
   const contexto = await navegador.newContext();
