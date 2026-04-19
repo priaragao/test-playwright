@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
-import { pegarValorJson } from "../resources/jsonHelper";
-import { TestPage } from "../pages/testPage";
+import { pegarValorJson } from "../resources/jsonHelper.js";
+import { TestPage } from "../pages/testPage.js";
 
 test("Caso de teste usando massa em JSON", async ({ page }) => {
   const SEQUENCIAL = 0;
